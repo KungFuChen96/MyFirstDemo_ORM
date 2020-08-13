@@ -24,7 +24,7 @@ namespace OrmTest
         private static void MasterSlave()
         {
             Console.WriteLine("");
-            Console.WriteLine("#### MasterSlave Start ####");
+            Console.WriteLine("#### MasterSlave Start By Chen####");
             SqlSugarClient db = new SqlSugarClient(new ConnectionConfig()
             {
                 ConnectionString = Config.ConnectionString,//Master Connection
